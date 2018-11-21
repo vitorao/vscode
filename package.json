@@ -1,0 +1,25 @@
+{
+    "name": "vitoraraujo",
+    "displayName": "vitor-araujo",
+    "description": "A helpfull snippets codes",
+    "version": "0.0.1",
+    "publisher": "vao-snippets",
+    "engines": {
+      "vscode": "^0.10.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vitorskm/vscode.git"
+    },
+	"Print AsyncFor": {
+		"prefix": "asyncf",
+	 	"body": [
+	 		"this.asyncFor.iterar( 0, ${array}, (pos, array, proximo)=>{",
+			"\t$0",
+			"}, (pos, array)=>{",
+			"\t",
+			"});"
+	 	],
+	 	"description": "Log output to console"
+	}
+}
