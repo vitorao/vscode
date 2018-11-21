@@ -1,0 +1,13 @@
+{
+	"Print AsyncFor": {
+		"prefix": "asyncf",
+	 	"body": [
+	 		"this.asyncFor.iterar( 0, ${array}, (pos, array, proximo)=>{",
+			"\t$0",
+			"}, (pos, array)=>{",
+			"\t",
+			"});"
+	 	],
+	 	"description": "Log output to console"
+	}
+}
